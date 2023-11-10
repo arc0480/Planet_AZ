@@ -1,8 +1,5 @@
 sector: 3,
 planet: "AsPlanet",
-research: {
-        parent: "Core: Shard"
-}
 difficulty: 5,
 overrideLaunchDefaults: true
 addStartingItems: true
