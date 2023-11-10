@@ -11,7 +11,7 @@ drawOrbit: true
 
 accessible: true
 alwaysUnlocked: true
-defaultCore: "Shard"
+
 sectorSeed: 0
 startSector: 3
 sectorSize: 1
