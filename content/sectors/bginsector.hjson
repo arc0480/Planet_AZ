@@ -1,7 +1,7 @@
 sector: 3,
-planet: "UrPlanet",
+planet: "AsPlanet",
 research: {
-        parent: "core-emerald"
+        parent: "Core: Shard"
 }
 difficulty: 5,
 overrideLaunchDefaults: true
