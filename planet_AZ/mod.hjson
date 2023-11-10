@@ -1,0 +1,7 @@
+name: "Planet_AZ"
+minGameVersion: 145.1
+displayName: "Planet_AZ"
+author: "mindustry_open_chat"
+subtitle: "Version: v1.0"
+dependencies: []
+hideBrowser: false
