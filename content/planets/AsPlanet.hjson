@@ -6,7 +6,7 @@ hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: 509200
+atmosphereColor: 96514d
 drawOrbit: true
 
 accessible: true
