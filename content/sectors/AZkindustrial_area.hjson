@@ -1,5 +1,5 @@
 sector:5
-planet:"planet_AZ"
+planet:"AsPlanet"
 difficulty:3
 overrideLaunchDefault:true
 addStartingItems:true
