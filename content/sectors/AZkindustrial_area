@@ -1,0 +1,7 @@
+sector:AZkindustrial_area
+planet:"planet_AZ"
+difficulty:3
+overrideLaunchDefault:true
+addStartingItems:true
+captureWave:20
+alwaysUnlocked:false
