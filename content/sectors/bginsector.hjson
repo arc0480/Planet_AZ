@@ -5,3 +5,11 @@ overrideLaunchDefaults: true
 addStartingItems: true
 captureWave: 10
 alwaysUnlocked: true
+
+sector:AZkifactory
+planet:"planet_AZ"
+difficulty:3
+overrideLaunchDefault:true
+addStartingItems:true
+captureWave:20
+alwaysUnlocked:false
