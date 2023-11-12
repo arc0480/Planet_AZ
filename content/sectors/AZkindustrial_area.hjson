@@ -4,4 +4,4 @@ difficulty:3
 overrideLaunchDefault:true
 addStartingItems:true
 captureWave:20
-alwaysUnlocked:false
+alwaysUnlocked:true
