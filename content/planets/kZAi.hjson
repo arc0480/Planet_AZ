@@ -1,3 +1,5 @@
+localizedName: 惑星あずき
+
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: 400000
