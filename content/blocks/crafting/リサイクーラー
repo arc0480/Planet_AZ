@@ -1,0 +1,36 @@
+name: リサイクーラー
+description: "アズリキッドを冷却し、アズキにする"
+type: GenericCrafter
+category: crafting
+
+size: 2
+hasItems: true
+itemCapacity: 30
+hasLiquids: true
+liquidCapacity: 300
+craftTime: 2
+
+consumes: {
+  power: 60
+  liquids: {
+    liquids: [
+      アズリキッド/ 3.0
+    ]
+  }
+}
+
+outputitem: アズキ/ 30
+heatoutput: 300
+
+requirements: [
+  あずき/ 10
+  あず枝/ 5
+]
+
+reserch: {
+  parent: 掘削機
+  requirements:[
+    あずき/ 25
+    あず枝/ 30
+    アズキ/ 60
+  ]
