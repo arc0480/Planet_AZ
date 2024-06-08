@@ -1,0 +1,18 @@
+name: 掘削機
+description: "アズキ鉱床からアズキを採掘できる"
+  
+type: drill
+category: production
+size: 2
+tier: 2
+drillTime: 300
+
+requirement: [
+  i101/ 15
+]
+
+reseach: {
+  parent: coreZki
+  requirements: [
+    i101/ 30
+  ]
