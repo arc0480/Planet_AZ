@@ -1,0 +1,35 @@
+name: MisileFactoryLaunchPad
+
+description:
+'''
+ミサイルユニットを生産し発射する
+'''
+
+type: MissileFactory and LaunchPad
+researchCostMultiplier: 0.3
+category: units
+size: 3
+consumes: {
+	power: 5
+}
+
+plans: [
+  {
+    type: flying
+    unit: azkissile
+    requirements: [
+      i01t01Azki/ 50
+      i02t01/ 60
+    ]
+  time: 10000
+  }
+]
+research: {
+  parent: CoreStrongSeeds
+  requirements: [
+    i01t01Azki/30
+  ]
+}
+requirements: [
+i01t01Azki/60
+]
