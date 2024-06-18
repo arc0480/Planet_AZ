@@ -1,9 +1,0 @@
-name: アズキ
-description: "最も基本的な鉱物資源"
-
-color: B82640
-type: material
-explosivence: 0
-flammability: 0
-radioactivity: 0
-hardness: 3
