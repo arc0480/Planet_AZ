@@ -8,11 +8,11 @@ tier: 2
 drillTime: 300
 
 requirement: [
-  i101/ 15
+  i01t01Azki/ 15
 ]
 
 reseach: {
   parent: coreZki
   requirements: [
-    i101/ 30
+    i01t01Azki/ 30
   ]
