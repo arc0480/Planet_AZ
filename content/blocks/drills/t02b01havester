@@ -1,0 +1,18 @@
+name: 収穫機
+description: "あず木群生地からあずきを収穫できる"
+  
+type: drill
+category: production
+size: 2
+tier: 1
+drillTime: 75
+
+requirement: [
+  i01t01Azki/ 15
+]
+
+reseach: {
+  parent: b01t01AzkiDrill
+  requirements: [
+    i01t01Azki/ 30
+  ]
