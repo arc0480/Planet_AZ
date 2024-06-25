@@ -1,0 +1,26 @@
+name: あずきポッド
+description: "お水を沸かしてお湯をつくれる電気ポッド"
+type: genericcrafter
+category: crafter
+
+size: 2
+crafttime: 30
+
+hasliquid; true
+liquidcaoacity: 60
+haspower: true
+
+consume: {
+  power/ 120
+  liquids: {
+    liquid: [
+      water/ 1
+    ]
+  }
+
+heatoutput: ture
+outputheat: 60
+
+liquidoutout: true
+putputliquid: l01t02HotWater/ 1.25
+
