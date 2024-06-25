@@ -1,0 +1,12 @@
+name: お湯
+description: "あったか〜い白湯"
+
+color: FFFFFF
+berColor: FFFFFF
+lightColor: FFFFFF
+
+flammability: 0.0
+temperature: 0.30
+heatCapacity: 0.3
+viscosity: 1.0
+explosiveness: 0.0
