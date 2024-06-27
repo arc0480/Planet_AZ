@@ -18,9 +18,20 @@ consume: {
     ]
   }
 
-heatoutput: ture
 outputheat: 60
+putputliquids: [
+  l01t02HotWater/ 1.25
+]
 
-liquidoutout: true
-putputliquid: l01t02HotWater/ 1.25
+reseach: {
+  parent: b01t02recycooler
+  requirements: [
+    i01t01Azki/ 40
+  ]
+}
 
+requirements: [
+  i01t01Azki/ 15
+]
+buildTime: 18
+buildVisibility: true
