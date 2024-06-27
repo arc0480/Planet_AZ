@@ -24,7 +24,7 @@ putputliquids: [
 ]
 
 reseach: {
-  parent: b01t02recycooler
+  parent: b02t01Recycooler
   requirements: [
     i01t01Azki/ 40
   ]
