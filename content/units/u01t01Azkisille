@@ -1,0 +1,7 @@
+name: あずキサイル
+type: flying
+flying: true
+health: 10
+itemCapacity: 30
+
+
