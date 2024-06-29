@@ -97,9 +97,9 @@ ammotype: {
   }
 }
 
-requirement: {
+requirement: [
   i02t02BoiledAzuki/ 1
-}
+]
 
 buildVisibillity: shown
 alwaysUnlocked: true
