@@ -2,7 +2,7 @@ name: MisileFactoryLaunchPad
 
 description:
 '''
-ミサイルユニットを生産し発射する
+ドローンユニットを生産する
 '''
 
 type: MissileFactory and LaunchPad
@@ -16,7 +16,7 @@ consumes: {
 plans: [
   {
     type: flying
-    unit: azkissile
+    unit: u02t01AzkiDrone
     requirements: [
       i01t01Azki/ 50
       i02t01/ 60
