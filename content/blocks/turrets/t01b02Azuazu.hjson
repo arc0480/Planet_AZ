@@ -1,0 +1,101 @@
+name: Azuazu
+description: "あずあず(←かわいい)"
+type: ItemTurret
+category: turret
+size: 2
+healce: 1000
+recoil: 1.0
+reload: 360
+range: 420
+inaccuracy: 45
+hasPowre: false
+hasItems: true
+itemCapacuty: 30
+ammoPerShot: 5
+ammoEjectBack: 1
+
+shoot: {
+  shots: 1
+shotDelay: 2
+}
+
+spread: 4
+restitution: 0.1
+cooldown: 0.1
+rotatespeed: 1.2
+shootCone: 8
+shootShake: 0
+xRand: 0
+
+targetAire: true
+targetGround: false
+
+ammotype: {
+  i02t02Yudeazuki: {
+	  bulletType: BasicBulletType
+	  damage: 5
+	  speed: 10
+	  lifetime: 28
+	  width: 7
+	  height: 10
+          ammoMultiplier: 2
+          reloadMultipler: 5.0
+          absorbable: true
+          pierce: true 
+          pierceArmor: false
+          
+          fragOnHit: true
+          fragOnAbsorbable: true
+          keepVelocity: true
+          fragBullets: 2
+          fragRandumSpread: 20
+            fragBullet: {
+              bulletType: BasicBulletType
+              speed: 2.5
+              width: 1
+              lifeTime: 0.5
+              damage: 5
+              absorbable: false
+              pierce: true
+              pierceCap: 1
+              pierceArmor: true
+
+              fragOnHit: true
+              fragOnAbsorbable: true
+              keepVelocity: true
+              fragBullets: 2
+              fragRandumSpread: 20
+              fragBullet: {
+                bulletType: BasicBulletType
+                speed: 2.5
+                width: 1
+                lifeTime: 0.5
+                damage: 5
+                absorbable: true
+                pierce: false
+                pierceCap: 0
+                pierceArmor: false
+
+              fragOnHit: true
+              fragOnAbsorbable: true
+              keepVelocity: true
+              fragBullets: 2
+              fragRandumSpread: 20
+              fragBullet: {
+                bulletType: BasicBulletType
+                speed: 2.5
+                width: 1
+                lifeTime: 0.5
+                damage: 10
+                absorbable: true
+                pierce: false
+                pierceCap: 0
+                pierceArmor: false
+        }
+      }
+    }
+  }
+}
+
+buildVisibillity: shown
+alwaysUnlocked: true
