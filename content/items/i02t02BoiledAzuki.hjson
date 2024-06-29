@@ -1,0 +1,9 @@
+name: ゆであずき
+description: "茹でたあずき"
+
+color: B82640
+type: material
+explosivence: 0
+flammability: 0
+radioactivity: 0
+hardness: 1
