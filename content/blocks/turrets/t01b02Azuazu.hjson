@@ -16,7 +16,7 @@ ammoEjectBack: 1
 
 shoot: {
   shots: 1
-shotDelay: 2
+  shotDelay: 2
 }
 
 spread: 4
