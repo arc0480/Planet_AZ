@@ -7,6 +7,8 @@ size: 2
 tier: 2
 drillTime: 300
 
+squareSprites: false
+
 requirement: [
   i01t01Azki/ 15
 ]
