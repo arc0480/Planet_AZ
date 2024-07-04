@@ -1,0 +1,18 @@
+name: 加速アズ機
+description: '''
+隣接するブロックの動作効率を向上させるブロック
+このブロック自体も加速の影響を受けるため、
+'''
+type: overdriveProjecter
+size: 2
+range: 0.0625
+requirements: [
+  azuki/ 3
+  azwood/ 3
+  ]
+
+category: effect
+reseach: {
+  parent: azkicore
+  ]
+  
