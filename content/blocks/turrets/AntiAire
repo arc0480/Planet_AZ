@@ -1,0 +1,30 @@
+name: アークタレット
+description: "対空特化型の電気タレット"
+type: powerturret
+category: turret
+health: 300
+size: 1
+inaccuracy: 10
+
+
+squersprite: false
+
+
+consume: {
+  poret: 180
+}
+
+shoot: {
+  shots: 5
+  shootDelay: 6
+}
+barstspacing: 3
+
+ammotypes: {
+  type: basicbullettype
+  damage: 20
+  splashdamage: 35
+  splashdamageradius: 10
+  speed: 3
+  
+  
