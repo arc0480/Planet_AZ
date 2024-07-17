@@ -6,12 +6,14 @@ health: 300
 size: 1
 inaccuracy: 10
 
+targetground: false
+targetair: true
 
 squersprite: false
 
 
 consume: {
-  poret: 180
+  power: 180
 }
 
 shoot: {
@@ -21,10 +23,30 @@ shoot: {
 barstspacing: 3
 
 ammotypes: {
-  type: basicbullettype
-  damage: 20
-  splashdamage: 35
-  splashdamageradius: 10
+  type: basicBulletType
+  damage: 10
+  splashDamage: 15
+  splashDamageRadius: 10
+  scaledSplashDamage: true
   speed: 3
-  
+  inaccuracy: 10
+  pireceArmor: true
+  absorbable: true
+
+  lightning: 3
+  lightningDamage: 5
+  lightningLength: 7
+  lightningLengthRand: 3
+  lightningColor: fbd367
+
+  fragOnHit: true
+  fragOnAbsorbable: true
+  fragBullets: 5
+  fragVerocityMax: 3.5
+  fragVerocityMin: 1
+  fragRandumSpread: 405
+    fragBullet: {
+      
+
+  bulletColor: 5BEEF1
   
