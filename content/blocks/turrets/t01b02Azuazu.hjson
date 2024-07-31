@@ -1,5 +1,5 @@
 name: Azuazu
-description: "あずあず"
+description: "あずあず｡特殊弾頭を用いて反跳爆撃します"
 type: ItemTurret
 category: turret
 size: 2
@@ -19,7 +19,6 @@ shoot: {
   shotDelay: 2
 }
 
-spread: 4
 restitution: 0.1
 cooldown: 0.1
 rotatespeed: 1.2
@@ -27,8 +26,8 @@ shootCone: 8
 shootShake: 0
 xRand: 0
 
-targetAire: true
-targetGround: false
+targetAir: false
+targetGround: true
 
 ammotype: {
   i02t02Yudeazuki: {
@@ -60,8 +59,8 @@ ammotype: {
               pierceCap: 1
               pierceArmor: true
 
-              fragOnHit: true
-              fragOnAbsorbable: true
+              fragOnHit: false
+              fragOnAbsorbable: false
               keepVelocity: true
               fragBullets: 2
               fragRandumSpread: 20
@@ -76,8 +75,8 @@ ammotype: {
                 pierceCap: 0
                 pierceArmor: false
 
-              fragOnHit: true
-              fragOnAbsorbable: true
+              fragOnHit: false
+              fragOnAbsorbable: false
               keepVelocity: true
               fragBullets: 2
               fragRandumSpread: 20
