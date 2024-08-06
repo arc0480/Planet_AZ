@@ -96,9 +96,16 @@ ammotype: {
   }
 }
 
-requirement: [
+requirements: [
   i02t02BoiledAzuki/ 1
 ]
+
+reseach:{
+  parent: coreZki
+  requirements:[
+    i01t01Azki/ 5
+  ]
+}
 
 buildVisibillity: shown
 alwaysUnlocked: true
