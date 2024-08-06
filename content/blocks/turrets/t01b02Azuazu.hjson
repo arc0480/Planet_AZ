@@ -15,7 +15,7 @@ ammoPerShot: 1
 ammoEjectBack: 1
 
 consumes:{
-  power/ 30
+  power: 30
 }
 
 shoot: {
