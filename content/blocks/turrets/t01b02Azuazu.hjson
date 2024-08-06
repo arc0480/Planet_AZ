@@ -8,11 +8,15 @@ recoil: 1.0
 reload: 360
 range: 420
 inaccuracy: 45
-hasPowre: false
+hasPowre: true
 hasItems: true
 itemCapacity: 30
 ammoPerShot: 1
 ammoEjectBack: 1
+
+consumes:{
+  power/ 30
+}
 
 shoot: {
   shots: 1
