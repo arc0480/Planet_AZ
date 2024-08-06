@@ -11,10 +11,9 @@ targetair: true
 
 squersprite: false
 
+hasPower: true
 
-consume: {
-  power: 180
-}
+powerUse: 180
 
 shoot: {
   shots: 5
