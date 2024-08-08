@@ -34,7 +34,7 @@ targetAir: false
 targetGround: true
 
 ammotype: {
-  i02t02Yudeazuki: {
+  i02t02BoiledAzuki: {
 	  bulletType: BasicBulletType
 	  damage: 5
 	  speed: 5
